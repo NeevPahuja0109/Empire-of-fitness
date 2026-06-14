@@ -159,6 +159,7 @@
   .nutrition-card{position:relative;overflow:hidden;cursor:none;background:var(--dark2);}
   .nutrition-visual{height:320px;position:relative;overflow:hidden;background:var(--dark2);}
   .nutrition-visual img{width:100%;height:100%;object-fit:cover;display:block;transition:transform 0.5s;}
+  .nutrition-visual img.product-shot{object-fit:contain;background:#1a1a1a;padding:20px;}
   .nutrition-card:hover .nutrition-visual img{transform:scale(1.06);}
   .nutrition-tagchip{position:absolute;top:16px;left:16px;background:var(--gold);color:var(--black);font-family:var(--font-cond);font-size:0.7rem;letter-spacing:2px;text-transform:uppercase;padding:6px 14px;z-index:2;}
   .nutrition-info{padding:28px;}
@@ -505,7 +506,7 @@
     <div class="nutrition-card">
       <div class="nutrition-visual">
         <div class="nutrition-tagchip">Post-Workout</div>
-        <img src="https://images.unsplash.com/photo-1579722820308-13da7d2e7b95?w=500&q=80" alt="Protein Shake" loading="lazy"/>
+        <img src="assets/nutrition-protein-shake.png" alt="Protein Shake" class="product-shot" loading="lazy"/>
       </div>
       <div class="nutrition-info">
         <div class="nutrition-name">PROTEIN SHAKE</div>
@@ -519,7 +520,7 @@
     <div class="nutrition-card">
       <div class="nutrition-visual">
         <div class="nutrition-tagchip">On-the-Go</div>
-        <img src="https://images.unsplash.com/photo-1622484212385-fde32b1a2521?w=500&q=80" alt="Protein Bar" loading="lazy"/>
+        <img src="assets/nutrition-protein-bar.png" alt="Protein Bar" class="product-shot" loading="lazy"/>
       </div>
       <div class="nutrition-info">
         <div class="nutrition-name">PROTEIN BAR</div>
@@ -533,7 +534,7 @@
     <div class="nutrition-card">
       <div class="nutrition-visual">
         <div class="nutrition-tagchip">Pre-Workout</div>
-        <img src="https://images.unsplash.com/photo-1579758682665-53a1a614f60a?w=500&q=80" alt="C4 Pre Workout" loading="lazy"/>
+        <img src="assets/nutrition-c4.png" alt="C4 Pre Workout" class="product-shot" loading="lazy"/>
       </div>
       <div class="nutrition-info">
         <div class="nutrition-name">C4 PRE-WORKOUT</div>
